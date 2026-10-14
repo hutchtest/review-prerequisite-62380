@@ -6,6 +6,7 @@
     "build:index": "node scripts/build-index.mjs",
     "prebuild": "npm run build:index",
     "build": "node --check src/index.mjs",
+    "pretest": "npm run build:index",
     "test": "node --test src/index.test.mjs"
   }
 }
