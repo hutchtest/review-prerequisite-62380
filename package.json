@@ -6,6 +6,6 @@
     "build:index": "node scripts/build-index.mjs",
     "prebuild": "npm run build:index",
     "build": "node --check src/index.mjs",
-    "test": "node -e \"console.log('No tests configured')\""
+    "test": "node --test src/index.test.mjs"
   }
 }
